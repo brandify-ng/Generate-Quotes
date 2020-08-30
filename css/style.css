@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 445px;
+    padding-top: 180px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, lavender, hotpink, darkorchid);
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    margin: 40px 0px;
+    background-color: indigo;
+    color: wheat;
+    font-size: larger;
+    border-radius: 5px;
+    border: none;
+}
+
+button:active{
+    background-color: darkorchid;
+    transform: scale(.99);
+    border: none;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 0px 25px;
+    /* color: white; */
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
